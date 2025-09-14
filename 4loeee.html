@@ -1,59 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Justice for All - About</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; text-align: center; }
-    nav { background: #222; padding: 12px; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    h1 { color: #333; margin-top: 15px; }
-    h2 { color: #444; margin-top: 30px; }
-    p { max-width: 850px; margin: 10px auto; color: #555; line-height: 1.7; font-size: 16px; }
-    img { width: 80%; max-width: 600px; margin: 15px 0; border-radius: 10px; }
-    .logo { width: 140px; margin-top: 15px; }
-    footer { background: #222; color: white; padding: 12px; margin-top: 40px; font-size: 14px; }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Get Involved — Justice For All</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <img src="logo.jpg" alt="Justice Logo" class="logo">
+  <img src="logo.jpg" alt="logo" class="logo">
+
+  <header>
+    <div class="title">Get Involved</div>
+    <div class="tagline">“Volunteer • Learn • Advocate”</div>
+  </header>
 
   <nav>
     <a href="loeee.html">Home</a>
-    <a href="2loeee.html">Why</a>
-    <a href="3loeee.html">Action</a>
-    <a href="4loeee.html">About</a>
+    <a href="2loeee.html">About Us</a>
+    <a href="3loeee.html">Programs</a>
+    <a href="4loeee.html" class="active">Get Involved</a>
   </nav>
 
-  <h1>About This Advocacy</h1>
-  <h2>Our Mission</h2>
+  <div class="container">
+    <h1>How to Join & Help</h1>
 
-  <p>
-    "Justice for All" is an advocacy built on the idea that fairness should not  
-    depend on wealth or status. Every person deserves the right to defend  
-    themselves and access equal treatment under the law.
-  </p>
-  <p>
-    The mission of this advocacy is to promote awareness, support reforms,  
-    and inspire communities to fight for equal justice. By bringing people  
-    together, we aim to break down the barriers that prevent the poor and  
-    marginalized from receiving fair legal representation.
-  </p>
-  <p>
-    Justice is not just a system—it is a promise of equality. When citizens  
-    believe in their legal rights, society becomes stronger, more peaceful,  
-    and more resilient to corruption and abuse.
-  </p>
+    <section>
+      <h2>Volunteer Opportunities</h2>
+      <p>
+        We welcome volunteers for: community outreach, workshop facilitation, paralegal training assistance,
+        social media campaigning, and event logistics. Volunteers can be law students, college students,
+        or community members who want to contribute time and skills.
+      </p>
+      <ul>
+        <li>Community Outreach — Help organize and run legal literacy sessions</li>
+        <li>Clinic Assistants — Intake, documentation, and referrals at legal aid days</li>
+        <li>Communications — Social media, content creation, and campaigns</li>
+      </ul>
+    </section>
 
-  <img src="images.jfif" alt="About the Advocacy">
+    <section>
+      <h2>Donate / Partner</h2>
+      <p>
+        We accept donations to fund workshop materials, transport for legal teams, and printing of leaflets.
+        Partner organizations help by providing venues, legal expertise, or funding support.
+      </p>
+      <p>
+        For partnership inquiries, email <a href="mailto:justiceforallph@gmail.com">justiceforallph@gmail.com</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact Form</h2>
+
+      <form action="#" method="post" style="background:#fff;padding:14px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.04);">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div style="text-align:right;margin-top:10px;">
+          <button type="submit" style="background:#222;color:#fff;border:none;padding:10px 16px;border-radius:6px;font-weight:700;">Send Message</button>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <h2>Contact & Social</h2>
+      <p>📍 Manila, Philippines — 📧 <a href="mailto:justiceforallph@gmail.com">justiceforallph@gmail.com</a> — ☎ +63 900 987 6543</p>
+      <p>Facebook: <a href="https://facebook.com/JusticeForAllPH" target="_blank">fb.com/JusticeForAllPH</a></p>
+    </section>
+  </div>
 
   <footer>
-    <p>References:  
-      <a href="https://sdgs.un.org/goals/goal16" target="_blank">UN SDG 16</a>,  
-      <a href="https://www.humanrights.gov/" target="_blank">Human Rights.gov</a>  
-    </p>
+    <ul>
+      <li>References: PAO, IBP, World Justice Project, UN SDG 16</li>
+    </ul>
+    <div>Justice For All © 2025 — SDG16 Advocacy</div>
   </footer>
-
 </body>
 </html>

@@ -1,59 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Justice for All - Home</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; text-align: center; }
-    nav { background: #222; padding: 12px; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    h1 { color: #333; margin-top: 15px; }
-    h2 { color: #444; margin-top: 30px; }
-    p { max-width: 850px; margin: 10px auto; color: #555; line-height: 1.7; font-size: 16px; }
-    img { width: 80%; max-width: 600px; margin: 15px 0; border-radius: 10px; }
-    .logo { width: 140px; margin-top: 15px; }
-    footer { background: #222; color: white; padding: 12px; margin-top: 40px; font-size: 14px; }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Justice For All — Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <img src="logo.jpg" alt="Justice Logo" class="logo">
+  <img src="logo.jpg" alt="Justice logo" class="logo">
+
+  <header>
+    <div class="title">About Our Advocacy</div>
+    <div class="tagline">“Justice for all, equality for everyone.”</div>
+  </header>
 
   <nav>
-    <a href="loeee.html">Home</a>
-    <a href="2loeee.html">Why</a>
-    <a href="3loeee.html">Action</a>
-    <a href="4loeee.html">About</a>
+    <a href="loeee.html" class="active">Home</a>
+    <a href="2loeee.html">About Us</a>
+    <a href="3loeee.html">Programs</a>
+    <a href="4loeee.html">Get Involved</a>
   </nav>
 
-  <h1>Justice for All</h1>
-  <h2>Building a Fairer Society</h2>
+  <div class="container">
+    <h1>Justice For All</h1>
 
-  <p>
-    Lawyers are the guardians of fairness and equality. They defend the innocent, protect the weak,  
-    and challenge corruption wherever it thrives. Without them, many people would not have the power  
-    to voice their struggles or protect their rights.
-  </p>
-  <p>
-    In the Philippines, justice is not always equal. Financial barriers prevent many from accessing  
-    legal aid, which is why advocacy is essential. "Justice for All" highlights the importance of  
-    ensuring every citizen, regardless of background, has access to fair representation.
-  </p>
-  <p>
-    This advocacy supports the United Nations’  
-    <a href="https://sdgs.un.org/goals/goal16" target="_blank">Sustainable Development Goal 16</a>:  
-    peace, justice, and strong institutions. A society grounded in fairness and law  
-    ensures accountability, equality, and a brighter future.
-  </p>
+    <section>
+      <h2>Who We Are</h2>
+      <p>
+        Justice For All is a youth-led advocacy group (founded 2022) working across the Philippines to promote access to justice,
+        legal literacy, and stronger institutions. We partner with law students, civil-society groups, and public legal-aid providers
+        to bring practical legal help and information to communities that need it most.
+      </p>
+      <p>
+        Our work began with community legal literacy sessions and grew into a broader program that includes free clinics, workshops,
+        and campaigns against abuse and corruption. We focus on real impact — helping people understand their rights and find legal
+        assistance when they need it.
+      </p>
+      <figure>
+        <img src="i.jpg" alt="Lawyers helping community" class="content-img">
+        <figcaption>Community legal clinic: bringing law closer to the people.</figcaption>
+      </figure>
+    </section>
 
-  <img src="your-case.jpg" alt="Lawyers working together">
+    <section>
+      <h2>Why This Matters</h2>
+      <p>
+        When people cannot access legal help, injustices go unchallenged. This undermines democracy, leaves vulnerable groups exposed,
+        and weakens institutions that should protect citizens. Strengthening access to justice supports safer, fairer communities.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Challenge</th><th>Typical Impact</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Lack of affordable lawyers</td><td>Unrepresented accused; unresolved civil claims</td></tr>
+            <tr><td>Backlogged courts</td><td>Delayed relief and prolonged injustice</td></tr>
+            <tr><td>Poor legal awareness</td><td>Rights not claimed; exploitation continues</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Our Programs (preview)</h2>
+      <div class="programs-preview">
+        <div class="program">
+          <img src="your-case.jpg" alt="Legal literacy" class="content-img">
+          <h3>Legal Literacy</h3>
+          <p>Community workshops and school seminars that explain basic rights and simple legal steps.</p>
+        </div>
+
+        <div class="program">
+          <img src="pl.webp" alt="Legal aid" class="content-img">
+          <h3>Free Legal Aid</h3>
+          <p>Partnering with clinics and pro bono lawyers to help low-income families with civil and criminal issues.</p>
+        </div>
+
+        <div class="program">
+          <img src="p.webp" alt="Anti-corruption" class="content-img">
+          <h3>Anti-Corruption</h3>
+          <p>Awareness campaigns, reporting tools, and community monitoring to encourage transparency.</p>
+        </div>
+      </div>
+
+      <p style="text-align:center; margin-top:12px;"><a href="3loeee.html">See all programs →</a></p>
+    </section>
+
+    <section class="cta">
+      <h2>Join Us — Make Justice Real</h2>
+      <p>Volunteer, learn, or donate. Even small contributions help people access the legal help they deserve.</p>
+      <a href="4loeee.html">Get Involved</a>
+    </section>
+  </div>
 
   <footer>
-    <p>SDG 16 Advocacy © 2025 | References:  
-      <a href="https://sdgs.un.org/goals/goal16" target="_blank">United Nations SDG 16</a>,  
-      <a href="https://www.doj.gov.ph/" target="_blank">Philippine DOJ</a>  
-    </p>
+    <ul>
+      <li>UN SDG 16 — Peace, Justice and Strong Institutions (sdgs.un.org/goals/goal16)</li>
+      <li>Public Attorney’s Office — www.pao.gov.ph</li>
+      <li>World Justice Project — worldjusticeproject.org</li>
+    </ul>
+    <div>Justice For All © 2025 — SDG16 Advocacy</div>
   </footer>
-
 </body>
 </html>
